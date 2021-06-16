@@ -1,2 +1,3 @@
 # IOE-ktspectrum
-Medium-induced radiative kernel with the Improved Opacity Expansion
+
+This repository contains the code used in the publication arXiv:2106.07402. 
