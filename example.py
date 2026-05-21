@@ -23,5 +23,11 @@ w = 0.5*w_scale;
 k = 2*kt_scale;
 
 # Spectrum results in GeV^-2
+print('Medium parameters')
+print('==================')
+print('qhat0[GeV^3] = ', definition.qhat0, 'L[GeV] = ', definition.L, 'mustar[GeV] = ', definition.mu_star) 
+print('==================')
 print ('(2pi)^wdI/dwd^2k [GeV^-2]')
+print('==================')
+print('k[GeV] = ', k, 'w[GeV] = ', w)
 print(' LO = ', bdmps.spectrum(w,k), ' NLO = ', ioe.spectrum(w,k), ' LO+NLO = ', bdmps.spectrum(w,k)+ioe.spectrum(w,k), 'GLV = ', glv.spectrum(w,k) )
